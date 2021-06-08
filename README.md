@@ -1,2 +1,2 @@
-# ubuntu_setup
-ubuntu setup history
+# Initial page
+
