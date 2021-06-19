@@ -1,5 +1,5 @@
 # Table of contents
 
 * [install nvidia driver & cuda](README.md)
-* [Citrix](untitled.md)
+* [Citrix Workspace](untitled.md)
 
