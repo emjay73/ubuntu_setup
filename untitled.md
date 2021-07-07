@@ -10,7 +10,21 @@ I downloaded the following deb file, but you do you.
 
 ![](.gitbook/assets/image%20%283%29.png)
 
-## 2. Add SSL Certificates
+![](.gitbook/assets/image%20%284%29.png)
+
+## 2. Download Citrix Reciever
+
+{% embed url="https://www.citrix.com/downloads/citrix-receiver/linux/receiver-for-linux-latest.html" %}
+
+
+
+I downloaded Full Packages debian file and USB support debian file.
+
+![](.gitbook/assets/image%20%281%29.png)
+
+![](.gitbook/assets/image%20%282%29.png)
+
+## 3. Add SSL Certificates
 
 Try to run your ica file.
 
@@ -67,6 +81,17 @@ Tested on
 $ uname -a
 Linux emjay-ubuntu18 5.4.0-74-generic #83~18.04.1-Ubuntu SMP Tue May 11 16:01:00 UTC 2021 x86_64 x86_64 x86_64 GNU/Linux
 ```
+
+and
+
+```text
+$ uname -a
+Linux emjay-PC 4.15.0-147-generic #151-Ubuntu SMP Fri Jun 18 19:21:19 UTC 2021 x86_64 x86_64 x86_64 GNU/Linux
+```
+
+
+
+## 
 
 ## References
 
