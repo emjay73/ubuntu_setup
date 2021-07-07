@@ -1,8 +1,4 @@
----
-description: Citrix Workspace for Linux
----
-
-# Citrix
+# Citrix Workspace
 
 ## 1. Download Citrix Workspace App 
 
@@ -43,6 +39,8 @@ sudo c_rehash /opt/Citrix/ICAClient/keystore/cacerts/
 /opt/Citrix/ICAClient/util/configmgr &
 ```
 
+To map drives \(to allow access to files on your local Ubuntu machine via a share drive in the remote Windows session\), see the "File Access" tab.
+
 #### \#9. Configure Chrome/Chromium
 
 To use Citrix Receiver in Chrome and/or Chromium, run:
@@ -62,6 +60,13 @@ sudo apt-get install libmotif-dev
 ```
 
 
+
+Tested on
+
+```text
+$ uname -a
+Linux emjay-ubuntu18 5.4.0-74-generic #83~18.04.1-Ubuntu SMP Tue May 11 16:01:00 UTC 2021 x86_64 x86_64 x86_64 GNU/Linux
+```
 
 ## References
 
