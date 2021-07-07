@@ -39,6 +39,8 @@ sudo c_rehash /opt/Citrix/ICAClient/keystore/cacerts/
 /opt/Citrix/ICAClient/util/configmgr &
 ```
 
+To map drives \(to allow access to files on your local Ubuntu machine via a share drive in the remote Windows session\), see the "File Access" tab.
+
 #### \#9. Configure Chrome/Chromium
 
 To use Citrix Receiver in Chrome and/or Chromium, run:
