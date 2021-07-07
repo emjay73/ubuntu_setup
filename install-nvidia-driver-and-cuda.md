@@ -1,0 +1,2 @@
+# install nvidia driver & cuda
+

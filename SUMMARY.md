@@ -1,5 +1,6 @@
 # Table of contents
 
-* [install nvidia driver & cuda](Nvidia_driver_and_cuda.md)
-* [Citrix](Citrix.md)
+* [Introduction](README.md)
+* [install nvidia driver & cuda](install-nvidia-driver-and-cuda.md)
+* [Citrix](citrix.md)
 

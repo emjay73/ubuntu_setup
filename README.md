@@ -1,4 +1,4 @@
-# install nvidia driver & cuda
+# Introduction
 
 ## 1. Check Compatibility
 
@@ -7,8 +7,6 @@ Checking graphic driver & cuda version compatibility is a really important step.
 &gt;&gt; [https://docs.nvidia.com/deploy/cuda-compatibility/index.html](https://docs.nvidia.com/deploy/cuda-compatibility/index.html)
 
 ![](.gitbook/assets/image.png)
-
-
 
 Also, check graphic card and graphic driver compatibility.
 
@@ -21,20 +19,16 @@ check recommended graphic driver version from here.
 
 &gt;&gt; [https://www.nvidia.com/Download/index.aspx](https://www.nvidia.com/Download/index.aspx)
 
-
-
 Choose the compatible nvidia graphic driver version & cuda version that you want to install.
 
 ## 2. Install Nvidia Graphic
 
-
-
-```
+```text
 $ give me super-powers
 ```
 
 {% hint style="info" %}
- Super-powers are granted randomly so please submit an issue if you're not happy with yours.
+Super-powers are granted randomly so please submit an issue if you're not happy with yours.
 {% endhint %}
 
 Once you're strong enough, save the world:
@@ -45,6 +39,4 @@ Once you're strong enough, save the world:
 echo 'You got to trust me on this, I saved the world'
 ```
 {% endcode %}
-
-
 
