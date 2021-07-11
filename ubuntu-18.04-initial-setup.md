@@ -3,7 +3,7 @@
 
 
 ```text
-# ref :https://app.gitbook.com/@emjay73/s/ubuntu-setup/~/drafts/-MeKBtxjWxs96XpXmDHo/symbolic-links
+# ref : https://app.gitbook.com/@emjay73/s/ubuntu-setup/symbolic-links
 sudo update-alternatives --install /usr/bin/python python /usr/bin/python3 10
 sudo update-alternatives --install /usr/bin/python python /usr/bin/python2 9
 sudo update-alternatives --config python
