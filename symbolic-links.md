@@ -1,6 +1,6 @@
 # symbolic links
 
-## Symbolic link \(soft\)
+## Symbolic \(soft\) link 
 
 ```text
 ln -s 경로1 경로2
