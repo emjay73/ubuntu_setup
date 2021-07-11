@@ -1,4 +1,4 @@
-# install nvidia driver & cuda
+# install nvidia driver & cuda \(ing\)
 
 ## 1. Check Compatibility
 
