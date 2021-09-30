@@ -1,6 +1,6 @@
 # Install  cuda w/o sudo
 
-
+## sudo 없이 cuda 설치하기
 
 ### cuda install runfile실행
 
@@ -75,6 +75,29 @@ export PATH=/usr/local/cuda-10.2/bin${PATH:+:${PATH}}
 export LD_LIBRARY_PATH=/usr/local/cuda-10.2/lib64\
                          ${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}
 ```
+
+
+
+## cudnn 함 설치하기
+
+### cudnn download
+
+download cudnn : [official web](https://developer.nvidia.com/cudnn)
+
+
+
+### 압축해
+
+tar -xzvf cudnn-11.2-linux-x64-v8.1.1.33.tgz
+
+```text
+cp -P cuda/include/cudnn.h /home/minjungkim/Install/cuda-11.0/include/
+cp -P cuda/lib64/libcudnn* /home/minjungkim/Install/cuda-11.0/lib64
+chmod a+r /home/minjungkim/Install/cuda-11.0/include/cudnn.h
+chmod a+r /home/minjungkim/Install/cuda-11.0/lib64/libcudnn*
+```
+
+
 
 
 

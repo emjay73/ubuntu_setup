@@ -67,6 +67,12 @@ export LD_LIBRARY_PATH=/usr/local/cuda-10.2/lib64\
                          ${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}
 ```
 
+## 
+
+
+
+
+
 ## Ref
 
 {% embed url="https://docs.nvidia.com/cuda/cuda-installation-guide-linux/index.html" %}
