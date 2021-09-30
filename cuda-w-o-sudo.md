@@ -1,4 +1,4 @@
-# CUDA w/o sudo
+# Install  cuda w/o sudo
 
 
 
@@ -31,7 +31,7 @@ sh ./runblabla
 
 ![](.gitbook/assets/image%20%289%29.png)
 
-![](.gitbook/assets/image%20%2813%29.png)
+![](.gitbook/assets/image%20%2814%29.png)
 
 ### Advanced mode 진입
 
@@ -55,5 +55,24 @@ sudo 권한이 필요 없는 곳으로 변경
 
 변경후 : /home/minjungkim/Install/cuda-11.0/
 
+![](.gitbook/assets/image%20%2813%29.png)
+
+### 
+
+### Resulting Output
+
 ![](.gitbook/assets/image%20%2812%29.png)
+
+
+
+### 환경변수 설정
+
+```text
+vim ~/.bashrc
+
+# add the following lined
+export PATH=/usr/local/cuda-10.2/bin${PATH:+:${PATH}}
+export LD_LIBRARY_PATH=/usr/local/cuda-10.2/lib64\
+                         ${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}
+```
 
