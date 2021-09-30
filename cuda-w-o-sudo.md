@@ -76,3 +76,15 @@ export LD_LIBRARY_PATH=/usr/local/cuda-10.2/lib64\
                          ${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}
 ```
 
+
+
+## Reference
+
+{% embed url="https://stackoverflow.com/questions/39379792/install-cuda-without-root" %}
+
+
+
+{% embed url="https://yunmorning.tistory.com/30" %}
+
+
+
